@@ -16,3 +16,23 @@ body{
   background-size: 55vw;
   background-repeat: no-repeat;
 }
+
+@media (max-width: 640px) {
+  body {
+    background-color: var(--primary-dark-cyan);
+    background-image: url(../public/assets/bg-pattern-top.svg), url(../public/assets/bg-pattern-bottom.svg);
+    background-position: left -100px top -100px, right -100px bottom -100px;
+    background-size: 100vw;
+    background-repeat: no-repeat;
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    background-color: var(--primary-dark-cyan);
+    background-image: url(../public/assets/bg-pattern-top.svg), url(../public/assets/bg-pattern-bottom.svg);
+    background-position: left -100px top -300px, right -100px bottom -300px;
+    background-size: 55vw;
+    background-repeat: no-repeat;
+  }
+}
